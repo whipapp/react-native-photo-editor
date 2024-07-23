@@ -38,11 +38,6 @@ const Image = (props) => {
 
 export default Image;
 
-Image.propTypes = {
-  url: PropTypes.string,
-  style: ViewPropTypes.style,
-};
-
 const style = StyleSheet.create({
   image: {
     ...StyleSheet.absoluteFill,
